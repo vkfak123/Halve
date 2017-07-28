@@ -1,15 +1,15 @@
 ---
 layout: home
 ---
-# CV
+#CV
 
-Education
+###Education
 
 2010.03-2016.02	광운대학교 로봇학부 지능시스템전공 졸업
 
 2006.03-2009.02	성남 송림고등학교 졸업
 
-Work Experience
+###Work Experience
 
 2017.02-2018.02	고려대학교 기계공학부 Mechatronics&Field Robotics Lab 인턴 근무(홍대희교수님)
 
@@ -17,7 +17,7 @@ Work Experience
 
 2015.06-2015.07	유코스텍 _ 인턴
 
-Activity
+###Activity
 
 2017.06	<ELEKTRA Festival>, La Cinémathèque Québécoise(@Montreal, Canada)
 
