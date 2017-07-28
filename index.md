@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-# About Theme
+# CV
 
 Education
 
