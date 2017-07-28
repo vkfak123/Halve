@@ -3,8 +3,54 @@ layout: home
 ---
 # About Theme
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+Education
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+2010.03-2016.02	광운대학교 로봇학부 지능시스템전공 졸업
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+2006.03-2009.02	성남 송림고등학교 졸업
+
+Work Experience
+
+2017.02-2018.02	고려대학교 기계공학부 Mechatronics&Field Robotics Lab 인턴 근무(홍대희교수님)
+
+2015.11-2016.12	아트센터나비 미술관 _ E.I.Lab 하드웨어 개발 직무
+
+2015.06-2015.07	유코스텍 _ 인턴
+
+Activity
+
+2017.06	<ELEKTRA Festival>, La Cinémathèque Québécoise(@Montreal, Canada)
+
+2017.06	<Holland Festival>, Muziekgebouw aan 't IJ(@Amsterdam, netherlands)
+
+2017.05-2017.06     <로보틱스와 디지털 사운드>, 수원시립아이파크미술관
+
+2017.03-2017.12    <소형 건축물 및 비정형 부재 대상 3D 프린팅 설계, 재료 및 장비 개발> 연구, 국토교통과학기술진흥원
+
+2016.11-2017.01	<아직도 인간이 필요한 이유: AI 와 휴머니티 展>, 아트센터나비미술관
+
+2016.11	<NEXT CONTENT CONFERENCE> 전시 및 공연, 코엑스 콘퍼런스룸
+
+2016.07-2016.09	<Nabi Artist Residency 2016> 기술 지원, 타작마당(SK UX/HCI LAB)
+
+2016.06-2017	<사이언스 월든 파빌리온> 미디어 파사드 제작 및 설치, 울산과학기술원(UNIST)
+
+2016.05	<2016 아데코 심포지엄> 전시, 밀레니엄 서울 힐튼
+
+2016.04-2016.11	Cel 아카데미 테크 수업 및 멘토링 진행, 타작마당(SK UX/HCI LAB)
+
+2016.04-2016.05	<Robot Theatre : B급 로봇전시회展>, 아트센터나비미술관
+
+2016.03	<2016 CREATOR RUNWAY> 전시 및 공연, 문화창조벤처단지
+
+2015.12-2016.01	<ROBOT PARTY>, 타작마당(SK UX/HCI LAB)
+
+2015.07	2015 대한전기학회 제 46회 하계학술대회 _ 모바일로봇의 실내 내비게이션 및 비콘을 활용한 위치추정
+
+2015.03-2015.07	융합프로젝트 진행, 로봇SW교육원&피플앤드테크놀러지
+
+2015.01-2015.07	로봇SW교육원 교육 과정 수료, SK 그린빌딩
+
+2014.07-2015.07	DO IT! 로봇 동아리 멘토링 프로그램 활동, 광운대학교
+
+2010.03-2016.02	로보트연구회(ROLAB) 활동, 광운대학교
