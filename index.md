@@ -1,15 +1,15 @@
 ---
 layout: home
 ---
-#CV
+# CV
 
-###Education
+### Education
 
 2010.03-2016.02	광운대학교 로봇학부 지능시스템전공 졸업
 
 2006.03-2009.02	성남 송림고등학교 졸업
 
-###Work Experience
+### Work Experience
 
 2017.02-2018.02	고려대학교 기계공학부 Mechatronics&Field Robotics Lab 인턴 근무(홍대희교수님)
 
@@ -17,33 +17,33 @@ layout: home
 
 2015.06-2015.07	유코스텍 _ 인턴
 
-###Activity
+### Activity
 
-2017.06	<ELEKTRA Festival>, La Cinémathèque Québécoise(@Montreal, Canada)
+2017.06	< ELEKTRA Festival > 전시, La Cinémathèque Québécoise(@Montreal, Canada)
 
-2017.06	<Holland Festival>, Muziekgebouw aan 't IJ(@Amsterdam, netherlands)
+2017.06	< Holland Festival > 전시, Muziekgebouw aan 't IJ(@Amsterdam, netherlands)
 
-2017.05-2017.06     <로보틱스와 디지털 사운드>, 수원시립아이파크미술관
+2017.05-2017.06 < 로보틱스와 디지털 사운드 > 공연, 수원시립아이파크미술관
 
-2017.03-2017.12    <소형 건축물 및 비정형 부재 대상 3D 프린팅 설계, 재료 및 장비 개발> 연구, 국토교통과학기술진흥원
+2017.03-2017.12 < 소형 건축물 및 비정형 부재 대상 3D 프린팅 설계, 재료 및 장비 개발 > 연구, 국토교통과학기술진흥원
 
-2016.11-2017.01	<아직도 인간이 필요한 이유: AI 와 휴머니티 展>, 아트센터나비미술관
+2016.11-2017.01	< 아직도 인간이 필요한 이유: AI 와 휴머니티 展 >, 아트센터나비미술관
 
-2016.11	<NEXT CONTENT CONFERENCE> 전시 및 공연, 코엑스 콘퍼런스룸
+2016.11	< NEXT CONTENT CONFERENCE > 전시 및 공연, 코엑스 콘퍼런스룸
 
-2016.07-2016.09	<Nabi Artist Residency 2016> 기술 지원, 타작마당(SK UX/HCI LAB)
+2016.07-2016.09	< Nabi Artist Residency 2016 > 기술 지원, 타작마당(SK UX/HCI LAB)
 
-2016.06-2017	<사이언스 월든 파빌리온> 미디어 파사드 제작 및 설치, 울산과학기술원(UNIST)
+2016.06-2017.02 < 사이언스 월든 파빌리온 > 미디어 파사드 제작 및 설치, 울산과학기술원(UNIST)
 
-2016.05	<2016 아데코 심포지엄> 전시, 밀레니엄 서울 힐튼
+2016.05	< 2016 아데코 심포지엄 > 전시, 밀레니엄 서울 힐튼
 
 2016.04-2016.11	Cel 아카데미 테크 수업 및 멘토링 진행, 타작마당(SK UX/HCI LAB)
 
-2016.04-2016.05	<Robot Theatre : B급 로봇전시회展>, 아트센터나비미술관
+2016.04-2016.05	< Robot Theatre : B급 로봇전시회展 >, 아트센터나비미술관
 
-2016.03	<2016 CREATOR RUNWAY> 전시 및 공연, 문화창조벤처단지
+2016.03	< 2016 CREATOR RUNWAY > 전시 및 공연, 문화창조벤처단지
 
-2015.12-2016.01	<ROBOT PARTY>, 타작마당(SK UX/HCI LAB)
+2015.12-2016.01	< ROBOT PARTY >, 타작마당(SK UX/HCI LAB)
 
 2015.07	2015 대한전기학회 제 46회 하계학술대회 _ 모바일로봇의 실내 내비게이션 및 비콘을 활용한 위치추정
 
