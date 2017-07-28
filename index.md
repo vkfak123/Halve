@@ -2,6 +2,7 @@
 layout: home
 ---
 <iframe frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+2017년 7월 28일 오후 5시 5분
 # CV
 
 ## Education
