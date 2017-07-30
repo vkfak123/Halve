@@ -22,10 +22,10 @@ Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor.
 
 <h2> Additional info</h2>
 <ul>
-	<li>개발 기간	     2014.04-2014.06</li>
-	<li>참여 인원	     3명</li>
-	<li>담당 분야	     안드로이드 애플리케이션 제작, 리드스위치를 이용한 서보 모터 제어</li>
-	<li>개발 언어	     C, Java</li>
-	<li>주최 기관	     광운대학교</li>
-	<li>진행 사유	     로봇학실험3 실험 프로젝트</li>
+	<li>개발 기간		:     2014.04-2014.06</li>
+	<li>참여 인원		:     3명</li>
+	<li>담당 분야		:     안드로이드 애플리케이션 제작, 리드스위치를 이용한 서보 모터 제어</li>
+	<li>개발 언어		:     C, Java</li>
+	<li>주최 기관		:     광운대학교</li>
+	<li>진행 사유		:     로봇학실험3 실험 프로젝트</li>
 </ul>
