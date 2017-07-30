@@ -12,10 +12,10 @@ tag:
 - Servo motor
 ---
 # Project; 픽시왕
-**ATmega128, Android application, Sensor test
+ATmega128, Android application, Sensor test
 Joon-hyuk Sim, Dae-jung Kim, Sang-hoon Jung
 Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor...
-30x170x120cm / 2014.06**
+30x170x120cm / 2014.0
 
 <a href="{{ site.url }}/images/fixiewang.jpg"><img src="{{ site.url }}/images/fixiewang.jpg"></a> 
 
@@ -25,9 +25,9 @@ Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor.
 
 ## Additional info
 
-- 개발 기간     2014.04-2014.06
-- 참여 인원     3명
-- 담당 분야     안드로이드 애플리케이션 제작, 리드스위치를 이용한 서보 모터 제어
-- 개발 언어     C, Java
-- 주최 기관     광운대학교
-- 진행 사유     로봇학실험3 실험 프로젝트
+* 개발 기간     2014.04-2014.06
+* 참여 인원     3명
+* 담당 분야     안드로이드 애플리케이션 제작, 리드스위치를 이용한 서보 모터 제어
+* 개발 언어     C, Java
+* 주최 기관     광운대학교
+* 진행 사유     로봇학실험3 실험 프로젝트
