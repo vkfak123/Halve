@@ -4,18 +4,16 @@ title:  "Project;픽시왕"
 date:   2014-06-24
 excerpt: "bicycle sensorometer"
 tag:
-- Bicycle
 - ATmega128
-- Android smartphone
-- Reed switch
-- Magnetic
-- Servo motor
+- Android application
+- Sensor test
 ---
 # Project; 픽시왕
-ATmega128, Android application, Sensor test
-Joon-hyuk Sim, Dae-jung Kim, Sang-hoon Jung
-Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor...
-30x170x120cm / 2014.06
+<hr />
+ATmega128, Android application, Sensor test<br />
+Joon-hyuk Sim, Dae-jung Kim, Sang-hoon Jung<br />
+Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor...<br />
+30x170x120cm / 2014.06<br />
 
 <a href="{{ site.url }}/images/fixiewang.jpg"><img src="{{ site.url }}/images/fixiewang.jpg"></a> 
 
@@ -24,9 +22,10 @@ Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor.
 
 <h2> Additional info</h2>
 <ul>
-	<li>개발 기간     2014.04-2014.06</li>
-	<li>참여 인원     3명</li>
-	담당 분야     안드로이드 애플리케이션 제작, 리드스위치를 이용한 서보 모터 제어
-	개발 언어     C, Java
-	주최 기관     광운대학교
-	진행 사유     로봇학실험3 실험 프로젝트
+	<li>개발 기간	     2014.04-2014.06</li>
+	<li>참여 인원	     3명</li>
+	<li>담당 분야	     안드로이드 애플리케이션 제작, 리드스위치를 이용한 서보 모터 제어</li>
+	<li>개발 언어	     C, Java</li>
+	<li>주최 기관	     광운대학교</li>
+	<li>진행 사유	     로봇학실험3 실험 프로젝트</li>
+</ul>
