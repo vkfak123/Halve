@@ -3,11 +3,6 @@
   image: images/endo.jpg
   completed: false
 
-- title: Inverted Reaction Wheel Pendulum
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
-  image: images/irwp.jpg
-  completed: false
-
 - title: F3D Printer"
   url: https://github.com/TaylanTatli/Block-Icon-Theme
   image: images/f3d.jpg
