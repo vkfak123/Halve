@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FixieWang"
-date:   2014-06
+date:   2014-06-24
 excerpt: "bicycle sensorometer"
 tag:
 - Bicycle
