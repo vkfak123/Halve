@@ -21,4 +21,4 @@ M : +82)10-4135-0574
 H : [https://vkfak123.github.io/robotwang](https://vkfak123.github.io/robotwang/)
 
 
-마지막 수정 날짜 : 2017년 7월 28일 오후 5시 20분
+'마지막 수정 날짜 : 2017년 7월 30일 오후 3시 45분'
