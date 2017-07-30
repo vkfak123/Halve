@@ -11,5 +11,13 @@ tag:
 - Magnetic
 - Servo motor
 ---
+# Project; 픽시왕
+ATmega128, Android application, Sensor test
+Joon-hyuk Sim, Dae-jung Kim, Sang-hoon Jung
+Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor...
+30x170x120cm / 2014.06
 
-<a href="{{ site.url }}/images/fixiewang.jpg"><img src="{{ site.url }}/images/fixiewang.jpg"></a>  
+<a href="{{ site.url }}/images/fixiewang.jpg"><img src="{{ site.url }}/images/fixiewang.jpg"></a> 
+
+## Description
+ <픽시왕>은 자전거 통합 센서 모듈로써 속도를 숫자가 아닌 자동차의 계기판처럼 시각적으로 보여주는 속도측정계와 자전거의 좌우 방향 전환을 스마트폰 내부의 가속센서를 이용하여 방향지시등을 하나의 모듈로써 제작하였다. 이 작품은 학부 3학년 1학기 실험과목인 로봇학 실험의 프로젝트 결과물로써 Atmel사의 펌웨어 개발 능력 향상과 실험시간에 다뤘던 다양한 센서 활용을 목표로 하였다.
