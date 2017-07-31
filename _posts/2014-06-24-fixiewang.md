@@ -27,11 +27,11 @@ Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor.
  <픽시왕>의 시스템 구조는 위 구조도와 같이 <b>리드스위치를 활용한 서보모터 제어 부분(Speedometer)</b>과 <b>스마트폰의 가속도 센서와 블루투스를 활용한 LED 제어 부분(Turn signal lamp)</b> 으로 나뉘어진다.
  	<h3> Speedometer</h3>
  		속도 측정계는 리드스위치를 외부인터럽트에 연결하여 리드 스위치가 자석에 근접하여 작동될 때 마다 다음과 같이 속도를 계산하였다.
- 		{% highlight yaml %}
- 		속도=거리∕시간=(바퀴 반경(34cm)×2π)∕한바퀴 도는데 걸린 시간(lab_time(ms))
- 		단위변환 (cm∕ms→km∕h)
- 		213/lab_time*0.00001*3600000=213*36/lab_time(km∕h)
- 		{% endhighlight %}
+{% highlight yaml %}
+속도=거리∕시간=(바퀴 반경(34cm)×2π)∕한바퀴 도는데 걸린 시간(lab_time(ms))
+단위변환 (cm∕ms→km∕h)
+213/lab_time*0.00001*3600000=213*36/lab_time(km∕h)
+{% endhighlight %}
 
 
 <h2> Additional info</h2>
