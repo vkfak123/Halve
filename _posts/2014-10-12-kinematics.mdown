@@ -15,12 +15,12 @@ tag:
 Inverse kinematics, ODE, MFC, Computer vision, object detect<br />
 Joon-hyuk Sim, Dong-guen Jo, Ki-hyun Kim, Ji-yong Kim<br />
 robot arm, webcam, Servomotor, Arduino, PC...<br />
-30x40x50cm / 2015.02<br />
+30x40x50cm / 2015.02<br /><br />
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/kyxQfYJJBLQ?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 <h2> Description</h2>
-  이 <기구학 실험>은 매니퓰레이터의 역기구학을 적용해보기 위한 실험으로써 진행되었다. 이 실험은 로봇SW교육원의 로보틱스 개론의 프로젝트 결과물로써 이 실험을 통해 역기구학 공식 적용을 위한 시뮬레이션 환경 구축과 검출된 물체를 집는 실제 로봇팔 구동을 테스트해 볼 수 있었다.
+  이 <기구학 실험>은 매니퓰레이터의 역기구학을 적용해보기 위한 실험으로써 진행되었다. 이 실험은 로봇SW교육원의 로보틱스 개론의 프로젝트 결과물로써 이 실험을 통해 역기구학 공식 적용을 위한 시뮬레이션 환경 구축과 검출된 물체를 집는 실제 로봇팔 구동을 테스트해 볼 수 있었다.<br />
 
 <h2> System architecture</h2>
 
@@ -34,7 +34,7 @@ robot arm, webcam, Servomotor, Arduino, PC...<br />
 		  PC에서 웹캠으로부터 받은 실시간 영상정보를 분석하여  물체의 위치 좌표를 검출하였다. 물체의 탐색을 위해 Blurring과 Thresholding을 적용하였고 더 정확한 검출을 위해 노이즈를 제거하였다. 이를 바탕으로 물체의 크기와 중심점을 검출하고 이를 MFC Dialog에 출력하였고 이를 MCU에 시리얼 통신으로 전송하였다.<br /><br />
 
 	<b>[Manipulator]</b><br />
-		    시리얼 통신을 통해 받은 위치 좌표값을 바탕으로 역기구학 공식을 적용하여 각 서보모터의 각도 값을 계산하여 실제 매니퓰레이터를 구동하도록 하였다.
+		    시리얼 통신을 통해 받은 위치 좌표값을 바탕으로 역기구학 공식을 적용하여 각 서보모터의 각도 값을 계산하여 실제 매니퓰레이터를 구동하도록 하였다.<br />
 
 <h2> Additional info</h2>
 	- 개발 기간		:     2015.01-2015.02<br />
@@ -42,4 +42,4 @@ robot arm, webcam, Servomotor, Arduino, PC...<br />
 	- 담당 분야		:     ODE simulation, 기구학식 계산, 펌웨어 프로그래밍<br />
 	- 개발 언어		:     C, C++, Matlab<br />
 	- 주최 기관		:     로봇SW교육원<br />
-	- 진행 사유		:     로봇SW교육원 '로보틱스 개론' 프로젝트<br />
+	- 진행 사유		:     로봇SW교육원 '로보틱스 개론' 프로젝트<br /><br />

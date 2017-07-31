@@ -15,32 +15,30 @@ tag:
 Human following robot, Bluetooth, RSSI, Android application, Computer Vision<br />
 Joon-hyuk Sim<br />
 Webcam, PC, ATmega128, Bluetooth2.0, Android smartphone, Ultrasonic sensor, Caterpillar mobile robot...<br />
-50x70x150cm / 2015.12<br />
+50x70x150cm / 2015.12<br /><br />
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/ZxeV8z4CaIA?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 <h2> Description</h2>
- <골프왕>은 Human following robot으로써 블루투스 트래킹과 컴퓨터 비전을 활용하여 필드에서 골프백을 적재한 모바일 로봇이 사용자를 따라다니는 작품이다. 이 작품은 개인 프로젝트로 진행되었으며 로봇의 다양한 활용 범위와 효율성, 그리고 사람을 대신할 수 있는 대체성에 착안점을 두고 개발하였다. 이 작품을 통해 블루투스를 활용한 위치 인식 기술과 안드로이드 애플리케이션 개발 능력 그리고 컴퓨터 비전 활용 능력 향상을 목표로 하였다.
+ <골프왕>은 Human following robot으로써 블루투스 트래킹과 컴퓨터 비전을 활용하여 필드에서 골프백을 적재한 모바일 로봇이 사용자를 따라다니는 작품이다. 이 작품은 개인 프로젝트로 진행되었으며 로봇의 다양한 활용 범위와 효율성, 그리고 사람을 대신할 수 있는 대체성에 착안점을 두고 개발하였다. 이 작품을 통해 블루투스를 활용한 위치 인식 기술과 안드로이드 애플리케이션 개발 능력 그리고 컴퓨터 비전 활용 능력 향상을 목표로 하였다.<br />
 
 <h2> System architecture</h2>
 
-<a href="{{ site.url }}/images/golfwang_sys.png"><img src="{{ site.url }}/images/golfwang_sys.png"></a> 
+<a href="{{ site.url }}/images/golfwang_sys.png"><img src="{{ site.url }}/images/golfwang_sys.png"></a> <br />
 
-<골프왕>의 시스템 구조는 위 구조도와 같이 <b>블루투스의 수신신호 세기(RSSI)를 이용하여 직선거리를 계산하는 Bluetooth Tracking 부분</b>과 <b>실시간 영상으로 사람의 상체를 검출하여 좌우 위치를 계산하는 Computer Vision 부분</b>으로 나뉘어진다.
- 	<h4> [Bluetooth tracking]</h4>
- 		 블루투스 RSSI를 통해 사용자가 소지한 스마트폰과 블루투스간의 직선거리를 계산한 후 거리에 따라 모터를 제어한다. 직선거리 측정은 Friis의 자유공간에서의 경로 손실 공식에 바탕을 둔 전파 모델을 이용하여 거리로 변환하여 계산 하였다. 추가적으로 초음파 센서를 부착하여 전방에 갑작스런 장애물이 나타났을 때 급정거를 하도록 하였다.
+<골프왕>의 시스템 구조는 위 구조도와 같이 <b>블루투스의 수신신호 세기(RSSI)를 이용하여 직선거리를 계산하는 Bluetooth Tracking 부분</b>과 <b>실시간 영상으로 사람의 상체를 검출하여 좌우 위치를 계산하는 Computer Vision 부분</b>으로 나뉘어진다.<br /><br />
+ 	<b> [Bluetooth tracking]</b><br />
+ 		 블루투스 RSSI를 통해 사용자가 소지한 스마트폰과 블루투스간의 직선거리를 계산한 후 거리에 따라 모터를 제어한다. 직선거리 측정은 Friis의 자유공간에서의 경로 손실 공식에 바탕을 둔 전파 모델을 이용하여 거리로 변환하여 계산 하였다. 추가적으로 초음파 센서를 부착하여 전방에 갑작스런 장애물이 나타났을 때 급정거를 하도록 하였다.<br /><br />
 
-	<h4> [Computer Vision]</h4>
-		 PC에서 웹캠으로부터 받은 실시간 영상정보를 분석하여  사용자의 상체를 검출하여 좌우 위치 좌표를 계산하였다. Haar cascade 기법을 사용하여 사람의 상체의 x좌표값을 검출하고 이를 바탕으로 모터를 구동하여  로봇과 사용자의 이동방향이 일치하도록 하였다.
+	<b> [Computer Vision]</b><br />
+		 PC에서 웹캠으로부터 받은 실시간 영상정보를 분석하여  사용자의 상체를 검출하여 좌우 위치 좌표를 계산하였다. Haar cascade 기법을 사용하여 사람의 상체의 x좌표값을 검출하고 이를 바탕으로 모터를 구동하여  로봇과 사용자의 이동방향이 일치하도록 하였다.<br />
 
 
 
 <h2> Additional info</h2>
-<ul>
-	<li>개발 기간		:     2014.06-2014.10</li>
-	<li>참여 인원		:     1명</li>
-	<li>담당 분야		:     전체 시스템 구현</li>
-	<li>개발 언어		:     C, Java, Python</li>
-	<li>주최 기관		:     로보트연구회(광운대학교 중앙 학술 동아리)</li>
-	<li>진행 사유		:     로보트 연구회 축제 작품, 삼성소프트웨어멤버십 지원 작품</li>
-</ul>
+	개발 기간		:     2014.06-2014.10<br />
+	참여 인원		:     1명<br />
+	담당 분야		:     전체 시스템 구현<br />
+	개발 언어		:     C, Java, Python<br />
+	주최 기관		:     로보트연구회(광운대학교 중앙 학술 동아리)<br />
+	진행 사유		:     로보트 연구회 축제 작품, 삼성소프트웨어멤버십 지원 작품<br />
