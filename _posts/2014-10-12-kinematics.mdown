@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "Project;기구학실험"
+date:   2015-02-20
+excerpt: "Inverse kinematics"
+tag:
+- Inverse kinematics
+- ODE
+- MFC
+- Computer Vision
+- object detect
+---
+# Project; 기구학 실험
+<hr />
+Inverse kinematics, ODE, MFC, Computer vision, object detect<br />
+Joon-hyuk Sim, Dong-guen Jo, Ki-hyun Kim, Ji-yong Kim<br />
+robot arm, webcam, Servomotor, Arduino, PC...<br />
+30x40x50cm / 2015.02<br />
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/kyxQfYJJBLQ?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<h2> Description</h2>
+  이 <기구학 실험>은 매니퓰레이터의 역기구학을 적용해보기 위한 실험으로써 진행되었다. 이 실험은 로봇SW교육원의 로보틱스 개론의 프로젝트 결과물로써 이 실험을 통해 역기구학 공식 적용을 위한 시뮬레이션 환경 구축과 검출된 물체를 집는 실제 로봇팔 구동을 테스트해 볼 수 있었다.
+
+<h2> System architecture</h2>
+
+<a href="{{ site.url }}/images/manipulator_sys.png"><img src="{{ site.url }}/images/manipulator_sys.png"></a> 
+
+ <기구학 실험>의 시스템 구조는 위 구조도와 같이 <b>역기구학 공식을 적용해 볼 수 있는 Simulation 부분</b>과 <b>실시간 영상으로 물체를 검출하여 평면 좌표계에서의 위치 좌표를 찾는 Computer Vision 부분</b> 그리고 <b>검출된 위치좌표로 매니퓰레이터의 엔드이펙터가 이동하여 물체를 집는 Manipulator 부분</b>으로 나뉘어진다.
+ 	<h4> [Simulation]</h4>
+ 		  rigid body dynamics 시뮬레이션을 위해 오픈소스 형태로 제공되는 ODE(Open Dynamics Engine)을 사용해 중력을 가진 환경내에서 길이, 무게, 위치, 초기 각도가 설정된 로봇팔의 관절과 링크를 생성하였다. 생성된 역기구학 식을 적용하여 좌표값에 따라 엔드이펙터가 그 위치에 도달하도록 시뮬레이션을 구현하였다.
+
+	<h4> [Computer Vision]</h4>
+		  PC에서 웹캠으로부터 받은 실시간 영상정보를 분석하여  물체의 위치 좌표를 검출하였다. 물체의 탐색을 위해 Blurring과 Thresholding을 적용하였고 더 정확한 검출을 위해 노이즈를 제거하였다. 이를 바탕으로 물체의 크기와 중심점을 검출하고 이를 MFC Dialog에 출력하였고 이를 MCU에 시리얼 통신으로 전송하였다.
+
+	<h4> [Manipulator]</h4>
+		    시리얼 통신을 통해 받은 위치 좌표값을 바탕으로 역기구학 공식을 적용하여 각 서보모터의 각도 값을 계산하여 실제 매니퓰레이터를 구동하도록 하였다.
+
+<h2> Additional info</h2>
+<ul>
+	<li>개발 기간		:     2015.01-2015.02</li>
+	<li>참여 인원		:     4명</li>
+	<li>담당 분야		:     ODE simulation, 기구학식 계산, 펌웨어 프로그래밍</li>
+	<li>개발 언어		:     C, C++, Matlab</li>
+	<li>주최 기관		:     로봇SW교육원</li>
+	<li>진행 사유		:     로봇SW교육원 '로보틱스 개론' 프로젝트</li>
+</ul>
