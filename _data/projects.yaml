@@ -44,9 +44,9 @@
   completed: false
 
 - title: Docent Robot
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
+  url: https://vkfak123.github.io/robotwang//docent/
   image: images/docent.jpg
-  completed: false
+  completed: true
 
 - title: Manipulator
   url: https://vkfak123.github.io/robotwang//kinematics/
