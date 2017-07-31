@@ -44,5 +44,3 @@ Webcam, PC, ATmega128, Bluetooth2.0, Android smartphone, Ultrasonic sensor, Cate
 	<li>주최 기관		:     로보트연구회(광운대학교 중앙 학술 동아리)</li>
 	<li>진행 사유		:     로보트 연구회 축제 작품, 삼성소프트웨어멤버십 지원 작품</li>
 </ul>
-
-<a href="{{ site.url }}/images/golfwang.jpg"><img src="{{ site.url }}/images/golfwang.jpg"></a> 

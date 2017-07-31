@@ -46,5 +46,3 @@ Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor.
 	<li>주최 기관		:     광운대학교</li>
 	<li>진행 사유		:     로봇학실험3 실험 프로젝트</li>
 </ul>
-
-<a href="{{ site.url }}/images/fixiewang.jpg"><img src="{{ site.url }}/images/fixiewang.jpg"></a> 
