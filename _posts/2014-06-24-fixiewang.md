@@ -32,6 +32,7 @@ Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor.
 	<h3> Turn signal lamp</h3>
 		 방향지시등 부분으로는 내부인터럽트를 사용하여 블루투스 통신을 하였다. 안드로이드 스마트폰 내부의 가속센서 값을 받아와 지정한 character 값을 전송하여 해당 값에 맵핑된 값에 따라 좌/우 방향지시등이 켜지도록 펌웨어를 프로그래밍 하였다.
 
+<iframe width="640" height="360" src="https://youtu.be/KKfwBAmzpp8" frameborder="0" allowfullscreen></iframe>
 
 <h2> Additional info</h2>
 <ul>
