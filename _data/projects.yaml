@@ -44,21 +44,21 @@
   completed: false
 
 - title: Docent Robot
-  url: https://vkfak123.github.io/robotwang//docent/
+  url: https://vkfak123.github.io/robotwang/docent/
   image: images/docent.jpg
   completed: true
 
 - title: Manipulator
-  url: https://vkfak123.github.io/robotwang//kinematics/
+  url: https://vkfak123.github.io/robotwang/kinematics/
   image: images/manipulator.jpg
   completed: true
 
 - title: GolfWang
-  url: https://vkfak123.github.io/robotwang//golfwang/
+  url: https://vkfak123.github.io/robotwang/golfwang/
   image: images/golfwang.jpg
   completed: true
 
 - title: FixieWang
-  url: https://vkfak123.github.io/robotwang//fixiewang/
+  url: https://vkfak123.github.io/robotwang/fixiewang/
   image: images/fixiewang.jpg
   completed: true
