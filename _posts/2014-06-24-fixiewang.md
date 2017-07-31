@@ -26,12 +26,12 @@ Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor.
 
  <br /><픽시왕>의 시스템 구조는 위 구조도와 같이 리드스위치를 활용한 서보모터 제어 부분[Speedometer]과 스마트폰의 가속도 센서와 블루투스를 활용한 LED 제어 부분[Turn signal lamp] 으로 나뉘어진다.<br /><br />
  	<b>[Speedometer]</b><br />
- 		속도 측정계는 리드스위치를 외부인터럽트에 연결하여 리드 스위치가 자석에 근접하여 작동될 때 마다 다음과 같이 속도를 계산하였다.<br />
+ 		속도 측정계는 리드스위치를 외부인터럽트에 연결하여 리드 스위치가 자석에 근접하여 작동될 때 마다 다음과 같이 속도를 계산하였다.
 {% highlight yaml %}
 속도=거리∕시간=(바퀴 반경(34cm)×2π)∕한바퀴 도는데 걸린 시간(lab_time(ms))
 단위변환 (cm∕ms→km∕h)
 213/lab_timex0.00001x3600000=213x36/lab_time(km∕h)
-{% endhighlight %}<br />
+{% endhighlight %}
 		Timer/Counter 0번을 이용해 20ms마다 서보모터를 동작을, Timer/Counter 1번으로 1ms마다 시간을 재서 한바퀴 돌았을 때 걸린 시간을 측정하였고 Timer/Counter 2번으로 40ms마다 외부인터럽트에서 계산한 속도를 가지고 시간을 계산하는 함수를 수행하도록 하였다. 속도에 6을 곱해 6° 당 1km/h로 계산하여 속도의 범위를 0~30km/h로 설정해 주었습니다. 서보모터의 시간폭을 계산하고(PWM) 받아온 속도에 따라 서보모터의 각을 정해주도록 하였다.<br /><br />
 	<b>[Turn signal lamp]</b><br />
 		 방향지시등 부분으로는 내부인터럽트를 사용하여 블루투스 통신을 하였다. 안드로이드 스마트폰 내부의 가속센서 값을 받아와 지정한 character 값을 전송하여 해당 값에 맵핑된 값에 따라 좌/우 방향지시등이 켜지도록 펌웨어를 프로그래밍 하였다.<br />
