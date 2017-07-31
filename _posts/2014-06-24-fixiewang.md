@@ -30,7 +30,7 @@ Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor.
 {% highlight yaml %}
 속도=거리∕시간=(바퀴 반경(34cm)×2π)∕한바퀴 도는데 걸린 시간(lab_time(ms))
 단위변환 (cm∕ms→km∕h)
-213/lab_timex0.00001∗3600000=213x36/lab_time(km∕h)
+213/lab_timex0.00001x3600000=213x36/lab_time(km∕h)
 {% endhighlight %}
 		Timer/Counter 0번을 이용해 20ms마다 서보모터를 동작을, Timer/Counter 1번으로 1ms마다 시간을 재서 한바퀴 돌았을 때 걸린 시간을 측정하였고 Timer/Counter 2번으로 40ms마다 외부인터럽트에서 계산한 속도를 가지고 시간을 계산하는 함수를 수행하도록 하였다. 속도에 6을 곱해 6° 당 1km/h로 계산하여 속도의 범위를 0~30km/h로 설정해 주었습니다. 서보모터의 시간폭을 계산하고(PWM) 받아온 속도에 따라 서보모터의 각을 정해주도록 하였다.
 	<h3> Turn signal lamp</h3>
