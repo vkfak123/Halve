@@ -24,7 +24,7 @@ Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor.
 
 <a href="{{ site.url }}/images/fixiewang_sys.png"><img src="{{ site.url }}/images/fixiewang_sys.png"></a> <br />
 
- <br /><픽시왕>의 시스템 구조는 위 구조도와 같이 리드스위치를 활용한 서보모터 제어 부분[Speedometer]과 스마트폰의 가속도 센서와 블루투스를 활용한 LED 제어 부분[Turn signal lamp] 으로 나뉘어진다.<br /><br />
+ <br />픽시왕의 시스템 구조는 위 구조도와 같이 리드스위치를 활용한 서보모터 제어 부분[Speedometer]과 스마트폰의 가속도 센서와 블루투스를 활용한 LED 제어 부분[Turn signal lamp] 으로 나뉘어진다.<br /><br />
  	<b>[Speedometer]</b><br />
  		속도 측정계는 리드스위치를 외부인터럽트에 연결하여 리드 스위치가 자석에 근접하여 작동될 때 마다 다음과 같이 속도를 계산하였다.
 {% highlight yaml %}

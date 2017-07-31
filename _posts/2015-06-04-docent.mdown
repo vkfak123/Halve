@@ -26,7 +26,7 @@ Kobuki, Beacon, Android tablet, PC, Ultrasonic sensor, Blueprint...<br />
 
 <a href="{{ site.url }}/images/docent_sys.png"><img src="{{ site.url }}/images/docent_sys.png"></a> 
 
- <br /> <Docent robot>의 시스템 구조는 위 구조도와 같이 모바일 로봇이 목표 위치로 이동하도록 하는 [Robot Navigation] 부분과 비콘을 통해 모바일 로봇의 현재 위치를 추정하고 모바일 로봇의 이동간에 누적된 오차를 보정하는 [Indoor LBS]부분으로 구성되어있다.<br /><br />
+ <br /> Docent robot의 시스템 구조는 위 구조도와 같이 모바일 로봇이 목표 위치로 이동하도록 하는 [Robot Navigation] 부분과 비콘을 통해 모바일 로봇의 현재 위치를 추정하고 모바일 로봇의 이동간에 누적된 오차를 보정하는 [Indoor LBS]부분으로 구성되어있다.<br /><br />
  	<b>[Robot Navigation]</b><br />
  		   ROS 환경을 제공하는 유진로봇사의 'Kobuki'를 이용하여 로봇 네비게이션을 구현하였고 전체적인 시스템의 명령 및 작품 설명은 태블릿PC를 통해 동작된다. 경로계획은 A*알고리즘을 활용하여 최단거리 경로를 구했으며, 장애물 회피에는 초음파센서를 활용한 자체 알고리즘을 적용하였다. 또한 위치 추정을 위해 몬테카를로 위치 추정 방법을 사용하였다. 이러한 방법들을 통하여 모바일 로봇의 자율주행이 가능하도록 구현하였다.<br /><br />
 
