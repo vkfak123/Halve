@@ -10,7 +10,7 @@ tag:
 - Android application
 - Computer Vision
 ---
-# Project; 골프왕
+<h1> Project; 골프왕</h1>
 <hr />
 Human following robot, Bluetooth, RSSI, Android application, Computer Vision<br />
 Joon-hyuk Sim<br />

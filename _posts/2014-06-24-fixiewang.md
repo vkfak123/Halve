@@ -8,7 +8,7 @@ tag:
 - Android application
 - Sensor test
 ---
-# Project; 픽시왕
+<h1> Project; 픽시왕</h1>
 <hr />
 ATmega128, Android application, Sensor test<br />
 Joon-hyuk Sim, Dae-jung Kim, Sang-hoon Jung<br />

@@ -10,7 +10,7 @@ tag:
 - Computer Vision
 - object detect
 ---
-# Project; 기구학 실험
+<h1> Project; 기구학 실험</h1>
 <hr />
 Inverse kinematics, ODE, MFC, Computer vision, object detect<br />
 Joon-hyuk Sim, Dong-guen Jo, Ki-hyun Kim, Ji-yong Kim<br />
