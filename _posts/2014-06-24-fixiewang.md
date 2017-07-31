@@ -15,8 +15,6 @@ Joon-hyuk Sim, Dae-jung Kim, Sang-hoon Jung<br />
 Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor...<br />
 30x170x120cm / 2014.06<br />
 
-<a href="{{ site.url }}/images/fixiewang.jpg"><img src="{{ site.url }}/images/fixiewang.jpg"></a> 
-
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/KKfwBAmzpp8?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 <h2> Description</h2>
@@ -48,3 +46,5 @@ Bicycle, Atmega128, LED, Android smartphone, Reed switch, Magnetic, Servo motor.
 	<li>주최 기관		:     광운대학교</li>
 	<li>진행 사유		:     로봇학실험3 실험 프로젝트</li>
 </ul>
+
+<a href="{{ site.url }}/images/fixiewang.jpg"><img src="{{ site.url }}/images/fixiewang.jpg"></a> 
