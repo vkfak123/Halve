@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: walkingchair
 title:  "Project;Walking chair"
 date:   2015-12-28
 tag:
