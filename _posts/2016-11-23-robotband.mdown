@@ -2,7 +2,6 @@
 layout: post
 title:  "Project;Robot band"
 date:   2016-11-23
-excerpt: "Robot navigation"
 tag:
 - Performance robot
 - Sound installation

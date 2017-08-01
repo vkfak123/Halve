@@ -2,7 +2,6 @@
 layout: post
 title:  "Project;Info blind"
 date:   2016-06-10
-excerpt: "Robot navigation"
 tag:
 - Media façade
 - LED Screen

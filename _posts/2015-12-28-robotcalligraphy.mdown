@@ -2,7 +2,6 @@
 layout: post
 title:  "Project;Robot calligraphy"
 date:   2015-12-28
-excerpt: "Robot navigation"
 tag:
 - Media art
 - Light art

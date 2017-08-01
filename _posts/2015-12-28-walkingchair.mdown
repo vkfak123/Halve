@@ -2,7 +2,6 @@
 layout: post
 title:  "Project;Walking chair"
 date:   2015-12-28
-excerpt: "Robot navigation"
 tag:
 - Quadruped walking robot
 - Interaction robot
