@@ -10,7 +10,7 @@ tag:
 - AI
 - IBM Watson Bluemix
 ---
-<h1> Project; RobotPanda</h1>
+<h1> Project; RoboPanda</h1>
 <hr />
 Robot, Prototype, 3D printing, Education, AI, IBM Watson Bluemix<br />
 Young-kak Jo, Young-tak Jo, Joon-hyuk Sim, Jung-hwan Kim, Yu-mi Yu<br />
@@ -26,7 +26,7 @@ OpenCM 9.04, Dynamixel XL-320, Li-ion Battery, RGB LED, Bluetooth 2.0, Android S
 
 <a href="{{ site.url }}/images/robopanda_sys.png"><img src="{{ site.url }}/images/robopanda_sys.png"></a> 
 
- <br />Robo panda의 시스템 구조는 위 구조도와 같이 IBM Bluemix의 API를 사용하여 사용자와 Q&A를 하는 [Android Application] 부분과 그에 대한 반응을 로보틱스라는 플랫폼을 통해 보여주는 [Robotics] 부분으로 나뉘어져 있다.
+ <br />RoboPanda의 시스템 구조는 위 구조도와 같이 IBM Bluemix의 API를 사용하여 사용자와 Q&A를 하는 [Android Application] 부분과 그에 대한 반응을 로보틱스라는 플랫폼을 통해 보여주는 [Robotics] 부분으로 나뉘어져 있다.
 <br /><br />
  	<b>[Android Application]</b><br />
  		     사용자가 질문을 하면 STT를 통해 사용자의 질문을 텍스트 형태로 바꾸고 이를 IBM Bluemix의 Natural Language Classfier API를 통해 질문의 의도를 분석한다. 이를 통해  미리 학습된 동화 Q&A 데이터를 바탕으로 가장 유사한 질문에 대한 대답을 TTS로 출력하도록 하였다. <br /><br />
