@@ -41,7 +41,7 @@ Electronic drum, MIDI pad controller, Synthesizer, Herkulex servo, Solenoid, PC,
 	- 개발 언어		:     C, Python<br />
 	- 주최 기관		:     아트센터나비<br />
 	- 진행 사유		:     < ROBOT PARTY > 전시<br />
-	< 2016 CREATOR RUNWAY > 공연<br />
-	< Robot Theatre : B급 로봇전시회展 > 공연<br /> 
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< 2016 CREATOR RUNWAY > 공연<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< Robot Theatre : B급 로봇전시회展 > 공연<br /> 
 	< NEXT CONTENT CONFERENCE > 공연<br /> 
 	< 로보틱스와 디지털 사운드 > 공연 <br /><br />    
