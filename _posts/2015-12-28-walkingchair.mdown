@@ -36,8 +36,8 @@ Wood chair, Herkulex servo, Ultrasonic sensor, Li-ion battery...<br />
 	- 개발 언어		:     C<br />
 	- 주최 기관		:     아트센터나비<br />
 	- 진행 사유		:     < ROBOT PARTY > 전시<br />
-	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< Robot Theatre : B급 로봇전시회展 > 전시<br /> 
-	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< 2016 아데코 심포지엄 > 전시<br />
-	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< Holland Festival > 전시<br />     
-	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< ELEKTRA Festival > 전시 <br />
-	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< QUT Robotronica 2017 > 전시<br /><br />
+	&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< Robot Theatre : B급 로봇전시회展 > 전시<br /> 
+	&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< 2016 아데코 심포지엄 > 전시<br />
+	&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< Holland Festival > 전시<br />     
+	&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< ELEKTRA Festival > 전시 <br />
+	&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< QUT Robotronica 2017 > 전시<br /><br />
