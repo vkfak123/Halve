@@ -1,0 +1,44 @@
+---
+layout: robopanda
+title:  "Project;RoboPanda"
+date:   2016-08-16
+tag:
+- Robot
+- Prototype
+- 3D printing
+- Education
+- AI
+- IBM Watson Bluemix
+---
+<h1> Project; RobotPanda/h1>
+<hr />
+Robot, Prototype, 3D printing, Education, AI, IBM Watson Bluemix<br />
+Young-kak Jo, Young-tak Jo, Joon-hyuk Sim, Jung-hwan Kim, Yu-mi Yu<br />
+OpenCM 9.04, Dynamixel XL-320, Li-ion Battery, RGB LED, Bluetooth 2.0, Android Smartphone, Resin...<br />
+225x194x290mm / 2016.08<br /><br />
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/gykpOmr_D9E?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<h2> Description</h2>
+      <Robo Panda>는 영유아를 위한 교육용 영어 컨텐츠 로봇을 목표로 제작되었다. 동물을 모티브로 하여 아이들에게 친숙한 형태로 로봇과 인공지능에 대한 긍정적인 미래상을 표현하였다. 인공지능에 “인어공주,” “늑대와 일곱 마리 아기 양” 등의 동화를 학습시켜, 아이들이 동화 내용에 대한 질문을 하면 로보 판다는 답과 함께 이에 상응하는 감정을 표현하기도 한다. 인공지능 IBM Watson을 바탕으로 아트센터 나비 E.I. Lab, 서울대학교 바이오 지능 연구실, SK C&C AIbril 팀에서 공동으로 연구, 개발, 제작하였다.<br />
+
+<h2> System architecture</h2>
+
+<a href="{{ site.url }}/images/robopanda_sys.png"><img src="{{ site.url }}/images/robopanda_sys.png"></a> 
+
+ <br />Robo panda의 시스템 구조는 위 구조도와 같이 IBM Bluemix의 API를 사용하여 사용자와 Q&A를 하는 [Android Application] 부분과 그에 대한 반응을 로보틱스라는 플랫폼을 통해 보여주는 [Robotics] 부분으로 나뉘어져 있다.
+<br /><br />
+ 	<b>[Android Application]</b><br />
+ 		     사용자가 질문을 하면 STT를 통해 사용자의 질문을 텍스트 형태로 바꾸고 이를 IBM Bluemix의 Natural Language Classfier API를 통해 질문의 의도를 분석한다. 이를 통해  미리 학습된 동화 Q&A 데이터를 바탕으로 가장 유사한 질문에 대한 대답을 TTS로 출력하도록 하였다. <br /><br />
+
+	<b>[Robotics]</b><br />
+		    판다 로봇은 자체적으로 혹은 안드로이드 애플리케이션에서 모션 데이터를 받아 모션을 수행한다. 예를 들면 영상 시청 중 노래가 나오면 함께 춤을 추며 사용자의 관심을 유도하며 때로는 학습된 동화의 질문에 대한 대답의 감정 상태를 모션을 통해 표현하였다. <br /><br />
+
+<h2> Additional info</h2>
+	- 개발 기간		:     2016.03-2016.08<br />
+	- 참여 인원		:     5명+협력 기관(SK C&C AIBril, 서울대 바이오지능 연구실, 핑크퐁)<br />
+	- 담당 분야		:     시스템 설계, 3D 모델링 설계 및 조립, 펌웨어 프로그래밍<br />
+	- 개발 언어		:     C, Java<br />
+	- 주최 기관		:     아트센터나비<br />
+	- 진행 사유		:     교육용 로봇 프로토타입 버전 전시<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< 아직도 인간이 필요한 이유: AI 와 휴머니티展 > 전시<br />

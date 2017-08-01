@@ -24,14 +24,14 @@
   completed: false
 
 - title: RoboPanda
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
+  url: https://vkfak123.github.io/robotwang/robopanda/
   image: images/robopanda.jpg
-  completed: false
+  completed: true
 
 - title: Info Blind
   url: https://vkfak123.github.io/robotwang/infoblind/
   image: images/infoblind.jpg
-  completed: false
+  completed: true
 
 - title: Walking Chair
   url: https://vkfak123.github.io/robotwang/walkingchair/

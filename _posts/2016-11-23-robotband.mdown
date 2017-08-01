@@ -17,7 +17,7 @@ Electronic drum, MIDI pad controller, Synthesizer, Herkulex servo, Solenoid, PC,
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Bh4PR-ZtVgA?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 <h2> Description</h2>
-     Robot band는 로봇과 사람의 협연을  위한 퍼포먼스용 로봇이다. 4개의 로봇 팔이 달린 드럼 연주 로봇과  3개의 로봇 손을 통해 미디패드와 아날로그 신디사이저를 함께 연주한다. <ROBOT PARTY>와 <2016 CREATOR RUNWAY>에서는 국악연주자와 협연으로 공연을 진행하였다. 기존에는 악보를 분석하여 시간과 음계에 맞는 모션들을  직접 매핑한 시스템으로 개발하였지만 2016년 11월에 MIDI 파일만 프로그램에 입력하면 자동으로 로봇밴드가 연주되도록 리뉴얼하였다. <br />
+     Robot band는 로봇과 사람의 협연을  위한 퍼포먼스용 로봇이다. 4개의 로봇 팔이 달린 드럼 연주 로봇과  3개의 로봇 손을 통해 미디패드와 아날로그 신디사이저를 함께 연주한다. < ROBOT PARTY >와 < 2016 CREATOR RUNWAY >에서는 국악연주자와 협연으로 공연을 진행하였다. 기존에는 악보를 분석하여 시간과 음계에 맞는 모션들을  직접 매핑한 시스템으로 개발하였지만 2016년 11월에 MIDI 파일만 프로그램에 입력하면 자동으로 로봇밴드가 연주되도록 리뉴얼하였다. <br />
 
 <h2> System architecture</h2>
 
