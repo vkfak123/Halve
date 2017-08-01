@@ -38,4 +38,4 @@ Industrial robot arm, Robot controller, LED, Tilt sensor, Brush, Ink stone...<br
 	- 담당 분야		:     설치 및 전기 공사, 라이트 모듈 제작<br />
 	- 개발 언어		:     C<br />
 	- 주최 기관		:     아트센터나비<br />
-	- 진행 사유		:     <ROBOT PARTY> 전시<br /><br />
+	- 진행 사유		:     "<ROBOT PARTY>" 전시<br /><br />
