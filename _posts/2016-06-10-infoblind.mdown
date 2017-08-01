@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Project;Info blind"
+date:   2016-06-10
+excerpt: "Robot navigation"
+tag:
+- Media façade
+- LED Screen
+- Installation
+- Data visualization
+---
+<h1> Project; Info blind</h1>
+<hr />
+Media façade, LED Screen, Installation, Data visualization<br />
+Young-kak Jo, Young-tak Jo, Joon-hyuk Sim, Jung-hwan Kim, Yu-mi Yu, Ki-sung Lee<br />
+Blind, FadeCandy, Flexible LED, mini PC, Power supply...<br />
+1247x1086x622cm / 2016.06<br /><br />
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/YKSg646HANo?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<h2> Description</h2>
+     Info blind는 대변을 이용해 바이오 가스를 생산하던 UNIST의 야외실험실 ‘사이언스 월든 파빌리온’에 설치된 미디어 파사드 작품이다. 파빌리온 내부의 블라인드 사이마다 복수의 LED가 수평으로 설치된 구조로 이루어져 각 블라인드가 거대한 모니터 역할을 할 수 있도록 제작되었다. Info blind는 사이언스 월든에서 진행 중인 화장실 및 바이오 에너지의 각 연구 과정과 결과들이 상호 연결된 관계를 시각적 이미지 형태로 보여준다. 예를 들면 사이언스 월든 파빌리온에서 생산하는 바이오 가스의 양을 나무가 자라나는 이미지로 시각화해 생산량을 표현함으로써 실험실의 연구 결과를 실시간으로 확인할 수 있도록 하였다. <br />
+
+<h2> System architecture</h2>
+
+<a href="{{ site.url }}/images/infoblind_sys.png"><img src="{{ site.url }}/images/infoblind_sys.png"></a> 
+
+ <br />Info blind의 시스템 구조는 위 구조도와 같이 Data를 수집하고 이를 소프트웨어적으로 처리하는 데이터 수집 부분[Data acquisition]과 이를 영상으로 보여주기 위한 데이터 시각화 부분[Data visualization]으로 나뉘어져 있다.<br /><br />
+ 	<b>[Data acquisition]</b><br />
+ 		     데이터 수집은 사이언스 월든 건물 내에 설치된 연구 시설에서 바이오 가스가 일정량 이상이 되면 데이터 로거에 입력이 된다. 입력이 될 때마다 비쥬얼 아트 프로그램(Processing)을 통해 나무에 가지와 열매가 하나씩 자라도록 프로그래밍 하였다.<br /><br />
+
+	<b>[LED module]</b><br />
+		    영상과 데이터 시각화를 LED로 출력하기 위해 영상을 LED에 맵핑하여 출력시켜주는 오픈소스 하드웨어인 FadeCandy를 사용하였다. 이를 플렉시블 LED와 전원에 연결하는 회로를 직접 설계 및 제작하여 블라인드에 부착하였다. 한면에 60*56의 해상도를 가진 1.2m x 3m 크기의 블라인드를 9개 제작하여 UNIST 사이언스 월든 건물에 직접 설치하였다.<br /><br />
+
+<h2> Additional info</h2>
+	- 개발 기간		:     2016.04-2016.06<br />
+	- 참여 인원		:     6명<br />
+	- 담당 분야		:     회로 설계, 블라인드 모듈 제작 및 설치<br />
+	- 개발 언어		:     Java<br />
+	- 주최 기관		:     울산과학기술원(UNIST)<br />
+	- 진행 사유		:     사이언스 월든 과학 예술 융합 프로젝트<br /> <br />  
