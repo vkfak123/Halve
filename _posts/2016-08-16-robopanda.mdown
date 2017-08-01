@@ -10,7 +10,7 @@ tag:
 - AI
 - IBM Watson Bluemix
 ---
-<h1> Project; RobotPanda/h1>
+<h1> Project; RobotPanda</h1>
 <hr />
 Robot, Prototype, 3D printing, Education, AI, IBM Watson Bluemix<br />
 Young-kak Jo, Young-tak Jo, Joon-hyuk Sim, Jung-hwan Kim, Yu-mi Yu<br />
