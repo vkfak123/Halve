@@ -13,6 +13,11 @@
   image: images/aihockey.jpg
   completed: false
 
+- title: Robot Band
+  url: https://vkfak123.github.io/robotwang/robotband/
+  image: images/robotband.jpg
+  completed: true
+
 - title: DangDang-e
   url: https://github.com/TaylanTatli/Block-Icon-Theme
   image: images/dangdange.jpg
@@ -26,11 +31,6 @@
 - title: Info Blind
   url: https://github.com/TaylanTatli/Block-Icon-Theme
   image: images/infoblind.jpg
-  completed: false
-
-- title: Robot Band
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
-  image: images/robotband.jpg
   completed: false
 
 - title: Walking Chair

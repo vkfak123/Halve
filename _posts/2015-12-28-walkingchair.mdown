@@ -35,4 +35,9 @@ Wood chair, Herkulex servo, Ultrasonic sensor, Li-ion battery...<br />
 	- 담당 분야		:     펌웨어 프로그래밍, 크롤 보행법 구현<br />
 	- 개발 언어		:     C<br />
 	- 주최 기관		:     아트센터나비<br />
-	- 진행 사유		:     < ROBOT PARTY > 전시<br />< Robot Theatre : B급 로봇전시회展 > 전시<br /> < 2016 아데코 심포지엄 전시 ><br /><br />      
+	- 진행 사유		:     < ROBOT PARTY > 전시<br />
+	< Robot Theatre : B급 로봇전시회展 > 전시<br /> 
+	< 2016 아데코 심포지엄 > 전시<br />
+	< Holland Festival > 전시<br />     
+	< ELEKTRA Festival > 전시 <br />
+	< QUT Robotronica 2017 > 전시<br /><br />

@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Project;Robot band"
+date:   2016-11-23
+excerpt: "Robot navigation"
+tag:
+- Performance robot
+- Sound installation
+- Automatic  performance
+---
+<h1> Project; Robot band</h1>
+<hr />
+Performance robot, Sound installation, Automatic  performance<br />
+Young-kak Jo, Joon-hyuk Sim, Young-tak Jo, Hyoung-san Jun, Dong-guen Jo<br />
+Electronic drum, MIDI pad controller, Synthesizer, Herkulex servo, Solenoid, PC, MIDI file, Arudino, Speaker...<br />
+500x200x150cm / 2015.12<br /><br />
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Bh4PR-ZtVgA?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<h2> Description</h2>
+     Robot band는 로봇과 사람의 협연을  위한 퍼포먼스용 로봇이다. 4개의 로봇 팔이 달린 드럼 연주 로봇과  3개의 로봇 손을 통해 미디패드와 아날로그 신디사이저를 함께 연주한다. <ROBOT PARTY>와 <2016 CREATOR RUNWAY>에서는 국악연주자와 협연으로 공연을 진행하였다. 기존에는 악보를 분석하여 시간과 음계에 맞는 모션들을  직접 매핑한 시스템으로 개발하였지만 2016년 11월에 MIDI 파일만 프로그램에 입력하면 자동으로 로봇밴드가 연주되도록 리뉴얼하였다. <br />
+
+<h2> System architecture</h2>
+
+<a href="{{ site.url }}/images/robotband_sys.png"><img src="{{ site.url }}/images/robotband_sys.png"></a> 
+
+ <br />Robot calligraphy의 시스템 구조는 위 구조도와 같이 허공에 ‘공존’이라는 글씨를 쓰는 [Calligraphy] 부분과 글씨를 쓰는 동안 빛을 밝히는 [LED module] 부분으로 나뉘어 진다.<br /><br />
+ 	<b>[Calligraphy]</b><br />
+ 		    컨트롤러를 통해 로봇 팔의 경로를 프로그래밍하였다.<br /><br />
+
+	<b>[LED module]</b><br />
+		   로봇팔이 ‘공존’이라는 글씨를 쓰는 시간동안 LED가 켜져있도록 하기 위해, 붓 내부에 부착할 가속도 센서와 LED를 연결한 모듈을 제작하였다. 이를 사용하여 로봇팔에 달린 붓이 움직이기 시작 할 때 부터 로봇이 글씨를 쓰는 시간 동안 LED가 켜지도록 하였다.<br /><br />
+
+<h2> Additional info</h2>
+	- 개발 기간		:     2015.11-2016.11<br />
+	- 참여 인원		:     5명<br />
+	- 담당 분야		:     시스템 설계, 회로 제작, 액츄에이터 제어, 펌웨어 프로그래밍<br />
+	- 개발 언어		:     C, Python<br />
+	- 주최 기관		:     아트센터나비<br />
+	- 진행 사유		:     < ROBOT PARTY > 전시<br />
+	< 2016 CREATOR RUNWAY > 공연<br />
+	< Robot Theatre : B급 로봇전시회展 > 공연<br /> 
+	< NEXT CONTENT CONFERENCE > 공연<br /> 
+	< 로보틱스와 디지털 사운드 > 공연 <br /><br />    
