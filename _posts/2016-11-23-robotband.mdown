@@ -24,12 +24,15 @@ Electronic drum, MIDI pad controller, Synthesizer, Herkulex servo, Solenoid, PC,
 
 <a href="{{ site.url }}/images/robotband_sys.png"><img src="{{ site.url }}/images/robotband_sys.png"></a> 
 
- <br />Robot calligraphy의 시스템 구조는 위 구조도와 같이 허공에 ‘공존’이라는 글씨를 쓰는 [Calligraphy] 부분과 글씨를 쓰는 동안 빛을 밝히는 [LED module] 부분으로 나뉘어 진다.<br /><br />
- 	<b>[Calligraphy]</b><br />
- 		    컨트롤러를 통해 로봇 팔의 경로를 프로그래밍하였다.<br /><br />
+ <br />Robot band의 시스템 구조는 위 구조도와 같이 총 3가지로 구성되어 있다. 첫 번째로는 MIDI 파일을 이용하여 디지털 신호를 지정된 시리얼 데이터로 전송하는 [Software] 부분, 두 번째로는 데이터에 따라 드럼을 연주하는 [Drum robot] 부분, 마지막으로 또 다른 데이터에 따라 신디사이저와 미디패드를 연주하는 [Synthe/MIDI robot hand] 부분으로 나뉘어져 있다.<br /><br />
+ 	<b>[Software]</b><br />
+ 		     MIDI 파일을 분석하여 실시간으로 노트, 속도, 시간을 메시지 형태로 출력하는 Mido 라이브러리를 활용하여 드럼 로봇과 신디사이저/MIDI 패드를 구동하는 시리얼 데이터를 MCU에 전송하는 프로그램을 개발하였다. 하나의 컴퓨터에서 프로그램을 실행하면 두 개의 시리얼 포트를 자동으로 연결하여 연주가 가능하도록 하였다.<br /><br />
 
-	<b>[LED module]</b><br />
-		   로봇팔이 ‘공존’이라는 글씨를 쓰는 시간동안 LED가 켜져있도록 하기 위해, 붓 내부에 부착할 가속도 센서와 LED를 연결한 모듈을 제작하였다. 이를 사용하여 로봇팔에 달린 붓이 움직이기 시작 할 때 부터 로봇이 글씨를 쓰는 시간 동안 LED가 켜지도록 하였다.<br /><br />
+	<b>[Drum robot]</b><br />
+		    로봇용 서보모터를 사용하여 전자 드럼을 타격하고 솔레노이드를 활용하여 발판을 구동하도록 설계하였다. PC로부터 시리얼 데이터에 받아 미리 프로그래밍 된 모션을 수행하도록 하였다. <br /><br />
+
+	<b>[Synthe/MIDI robot hand]</b><br />
+		    솔레노이드를 마네킹 손에 부착하여 신디사이저 키보드 연주와  미디패드 연주가 가능하도록 설계하였고, 서보모터를 활용하여 신디사이저의 이펙터를 조절할 수 있도록 부착하였다. PC로부터 시리얼 데이터에 받아 연주가 가능하도록 하였다.<br /><br />
 
 <h2> Additional info</h2>
 	- 개발 기간		:     2015.11-2016.11<br />
