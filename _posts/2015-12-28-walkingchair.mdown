@@ -14,21 +14,20 @@ Young-kak Jo, Joon-hyuk Sim, Hyoung-san Jun<br />
 Wood chair, Herkulex servo, Ultrasonic sensor, Li-ion battery...<br />
 420x450x800mm / 2015.12<br /><br />
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Gm7YdAydovk?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/iJSPOJzXKyk?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 <h2> Description</h2>
-     <Walking chair>는 4개의 다리를 이용해 보행하는 의자 형태의 로봇이다. 기존 의자의 개념인 ‘앉는다’라는 선입견을 깨고 ‘앉지 못하게 하는 의자’라는 개념으로 이 작품을 만들게 되었다. 이 작품을 통해 다양한 4족 보행의 방법들을 직접 테스트 및 적용해 볼 수 있었다.<br />
+     Walking chair는 4개의 다리를 이용해 보행하는 의자 형태의 로봇이다. 기존 의자의 개념인 ‘앉는다’라는 선입견을 깨고 ‘앉지 못하게 하는 의자’라는 개념으로 이 작품을 만들게 되었다. 이 작품을 통해 다양한 4족 보행의 방법들을 직접 테스트 및 적용해 볼 수 있었다.<br />
 
 <h2> System architecture</h2>
 
-<a href="{{ site.url }}/images/robotcalligraphy_sys.png"><img src="{{ site.url }}/images/robotcalligraphy_sys.png"></a> 
+<a href="{{ site.url }}/images/walkingchair_sys.png"><img src="{{ site.url }}/images/walkingchair_sys.png"></a> 
 
- <br />Robot calligraphy의 시스템 구조는 위 구조도와 같이 허공에 ‘공존’이라는 글씨를 쓰는 [Calligraphy] 부분과 글씨를 쓰는 동안 빛을 밝히는 [LED module] 부분으로 나뉘어 진다.<br /><br />
- 	<b>[Calligraphy]</b><br />
- 		    컨트롤러를 통해 로봇 팔의 경로를 프로그래밍하였다.<br /><br />
+ <br /> 12개의 로봇용 서보 모터를 의자 하단과 각 다리에 부착하였고, 크롤 보행법(Crawl gait)을 사용해 의자가 걸어다닐수 있도록 하였다. 크롤 보행법은 보행 간에 항상 3다리 이상을 접지하고 있으며 정 보행 중에서는 세로 안정 여유가 최대인 보행법이다. 로봇의 직진 보행의 단계는 아래 그림과 같이 6단계의 움직임을 반복하여 전방으로 이동한다.<br />
 
-	<b>[LED module]</b><br />
-		   로봇팔이 ‘공존’이라는 글씨를 쓰는 시간동안 LED가 켜져있도록 하기 위해, 붓 내부에 부착할 가속도 센서와 LED를 연결한 모듈을 제작하였다. 이를 사용하여 로봇팔에 달린 붓이 움직이기 시작 할 때 부터 로봇이 글씨를 쓰는 시간 동안 LED가 켜지도록 하였다.<br /><br />
+<a href="{{ site.url }}/images/walkingchair_gait.png"><img src="{{ site.url }}/images/walkingchair_gait.png"></a> 
+
+ <br /> 초음파 센서를 통해 전방에 사람을 인식하게 되면 로봇이 120도 회전한 후 직진 보행하여 도망가는 보행 모션을 구현하였다.
 
 <h2> Additional info</h2>
 	- 개발 기간		:     2015.11-2015.12<br />
@@ -36,4 +35,4 @@ Wood chair, Herkulex servo, Ultrasonic sensor, Li-ion battery...<br />
 	- 담당 분야		:     펌웨어 프로그래밍, 크롤 보행법 구현<br />
 	- 개발 언어		:     C<br />
 	- 주최 기관		:     아트센터나비<br />
-	- 진행 사유		:     < ROBOT PARTY > 전시<br />< Robot Theatre : B급 로봇전시회展 전시<br /> 2016 아데코 심포지엄 전시<br /><br />      
+	- 진행 사유		:     < ROBOT PARTY > 전시<br />< Robot Theatre : B급 로봇전시회展 > 전시<br /> < 2016 아데코 심포지엄 전시 ><br /><br />      
