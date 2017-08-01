@@ -1,25 +1,23 @@
 ---
 layout: post
-title:  "Project;Robot calligraphy"
+title:  "Project;Walking chair"
 date:   2015-12-28
 excerpt: "Robot navigation"
 tag:
-- Media art
-- Light art
-- Industrial robot controll
-- Installation
+- Quadruped walking robot
+- Interaction robot
 ---
-<h1> Project; Robot calligraphy</h1>
+<h1> Project; Walking chair</h1>
 <hr />
-Media art, Industrial robot controll, Light art, Installation<br />
-Young-kak Jo, Joon-hyuk Sim<br />
-Industrial robot arm, Robot controller, LED, Tilt sensor, Brush, Ink stone...<br />
-500x400x270cm / 2015.12<br /><br />
+Quadruped walking robot, Interaction robot<br />
+Young-kak Jo, Joon-hyuk Sim, Hyoung-san Jun<br />
+Wood chair, Herkulex servo, Ultrasonic sensor, Li-ion battery...<br />
+420x450x800mm / 2015.12<br /><br />
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Gm7YdAydovk?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 <h2> Description</h2>
-    Robot calligraphy는 산업용 로봇팔을 이용한 라이트 드로잉 퍼포먼스이다. 산업 일선에서 쓰이는 로봇팔을 전시공간으로 끌어들여 로봇이 기존의 목적에서 벗어나 새로운 역할을 보여주는 형태이다. 이 작품을 통해 붓과 벼루 등을 이용한 한국적인 컨텐츠와 ‘공존’이라는 의미를 전하고자 하였다. <br />
+     <Walking chair>는 4개의 다리를 이용해 보행하는 의자 형태의 로봇이다. 기존 의자의 개념인 ‘앉는다’라는 선입견을 깨고 ‘앉지 못하게 하는 의자’라는 개념으로 이 작품을 만들게 되었다. 이 작품을 통해 다양한 4족 보행의 방법들을 직접 테스트 및 적용해 볼 수 있었다.<br />
 
 <h2> System architecture</h2>
 
@@ -33,9 +31,9 @@ Industrial robot arm, Robot controller, LED, Tilt sensor, Brush, Ink stone...<br
 		   로봇팔이 ‘공존’이라는 글씨를 쓰는 시간동안 LED가 켜져있도록 하기 위해, 붓 내부에 부착할 가속도 센서와 LED를 연결한 모듈을 제작하였다. 이를 사용하여 로봇팔에 달린 붓이 움직이기 시작 할 때 부터 로봇이 글씨를 쓰는 시간 동안 LED가 켜지도록 하였다.<br /><br />
 
 <h2> Additional info</h2>
-	- 개발 기간		:     2015.12<br />
-	- 참여 인원		:     2명 + SK하이닉스, 나온테크<br />
-	- 담당 분야		:     설치 및 전기 공사, 라이트 모듈 제작<br />
+	- 개발 기간		:     2015.11-2015.12<br />
+	- 참여 인원		:     3명<br />
+	- 담당 분야		:     펌웨어 프로그래밍, 크롤 보행법 구현<br />
 	- 개발 언어		:     C<br />
 	- 주최 기관		:     아트센터나비<br />
-	- 진행 사유		:     ROBOT PARTY 전시<br /><br />
+	- 진행 사유		:     < ROBOT PARTY > 전시<br />< Robot Theatre : B급 로봇전시회展 전시<br /> 2016 아데코 심포지엄 전시<br /><br />      
