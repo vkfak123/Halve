@@ -23,7 +23,7 @@ Wood chair, Herkulex servo, Ultrasonic sensor, Li-ion battery...<br />
 
 <a href="{{ site.url }}/images/walkingchair_sys.png"><img src="{{ site.url }}/images/walkingchair_sys.png"></a> 
 
- <br /> 12개의 로봇용 서보 모터를 의자 하단과 각 다리에 부착하였고, 크롤 보행법(Crawl gait)을 사용해 의자가 걸어다닐수 있도록 하였다. 크롤 보행법은 보행 간에 항상 3다리 이상을 접지하고 있으며 정 보행 중에서는 세로 안정 여유가 최대인 보행법이다. 로봇의 직진 보행의 단계는 아래 그림과 같이 6단계의 움직임을 반복하여 전방으로 이동한다.<br />
+ <br /> 12개의 로봇용 서보 모터를 의자 하단과 각 다리에 부착하였고, 크롤 보행법(Crawl gait)을 사용해 의자가 걸어다닐수 있도록 하였다. 크롤 보행법은 보행 간에 항상 3다리 이상을 접지하고 있으며 정 보행 중에서는 세로 안정 여유가 최대인 보행법이다. 로봇의 직진 보행의 단계는 아래 그림과 같이 6단계의 움직임을 반복하여 전방으로 이동한다.<br /><br />
 
 <a href="{{ site.url }}/images/walkingchair_gait.png"><img src="{{ site.url }}/images/walkingchair_gait.png"></a> 
 
@@ -36,8 +36,8 @@ Wood chair, Herkulex servo, Ultrasonic sensor, Li-ion battery...<br />
 	- 개발 언어		:     C<br />
 	- 주최 기관		:     아트센터나비<br />
 	- 진행 사유		:     < ROBOT PARTY > 전시<br />
-	< Robot Theatre : B급 로봇전시회展 > 전시<br /> 
-	< 2016 아데코 심포지엄 > 전시<br />
-	< Holland Festival > 전시<br />     
-	< ELEKTRA Festival > 전시 <br />
-	< QUT Robotronica 2017 > 전시<br /><br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< Robot Theatre : B급 로봇전시회展 > 전시<br /> 
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< 2016 아데코 심포지엄 > 전시<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< Holland Festival > 전시<br />     
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< ELEKTRA Festival > 전시 <br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;< QUT Robotronica 2017 > 전시<br /><br />
